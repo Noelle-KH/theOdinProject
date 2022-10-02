@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Header */
+header {
+  width: 100%;
+}
+
+.nav-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 30px;
+  background-color: #fff;
+  box-shadow: 2px 2px 15px 0 rgba(0,0,0,0.1);
+}
+
+.logo {
+  width: 40px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav-item a {
+  position: relative;
+  margin-right: 20px;
+  outline: none;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-item a:hover {
+  color: #CC8A56;
+  border-bottom: 1.5px solid #CC8A56;
+}
+
+/* Main */
+main {
+  width: 90%;
+  margin: auto;
+}
+
+.recipe-name {
+  text-align: center;
+  font-size: 40px;
+  margin: 80px 0 40px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(145, 143, 143, 0.5);
+  border-bottom: 2px solid #FFD954;
+}
+
+.recipe-info {
+  display: flex;
+  justify-content: center;
+}
+
+.image-box {
+  width: 50%;
+  box-shadow: 5px 5px 0 0 #aaa;
+}
+
+.image-box img {
+  width: 100%;
+  height: 350px;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.recipe-description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+.description {
+  background-color: #ffedad;
+  padding: 30px 20px;
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
+.spend-times {
+  width: 100%;
+}
+
+.spend-times h3 {
+  margin-bottom: 15px;
+}
+
+.spend-times i {
+  margin-right: 5px;
+  color: #CC8A56;
+}
+
+.spend-times p {
+  display: inline-block;
+  margin: 0 15px 15px;
+  text-align: center;
+}
+
+.spend-times strong {
+  display: block;
+}
+
+.recipe-content {
+  margin: 80px 0;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 240, 213, 0.3);
+  /* border: 1px solid #CC8A56; */
+  box-shadow: 3px 3px 0 0 rgba(204, 137, 86, 0.511);
+}
+
+.recipe-ingredients {
+  margin: 0 80px;
+}
+
+.nutrition-facts {
+  margin: 0 auto;
+}
+
+.content-title {
+  padding-bottom: 15px;
+  font-size: 28px;
+}
+
+.content-title span{
+  font-size: 16px;
+}
+
+.recipe-content li,
+.recipe-content p {
+  font-size: 16px;
+  line-height: 2;
+}
+
+.directions {
+  margin: 80px 0;
+}
+
+.directions h3 {
+  font-size: 40px;
+  margin-bottom: 70px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #ffe9da;
+}
+
+.steps {
+  margin-bottom: 40px;
+  padding-left: 25px;
+}
+
+.steps li {
+  margin-bottom: 60px;
+  font-size: 18px;
+  position: relative;
+}
+
+.steps li + li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -30px;
+  left: -5px;
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background: #EBE5D9;
+}
+
+.footer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media p {
+  margin-bottom: 15px;
+}
+
+.social-media i {
+  margin-right: 5px;
+  font-size: 20px;
+  color: #000;
+}
+
+.social-media i:hover {
+  color: #CC8A56;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter p {
+  margin-bottom: 10px;
+}
+
+.subscript-info {
+  background-color: #fff;
+  border-radius: 200px;
+}
+
+.subscript-info input,
+.subscript-info button {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+}
+
+.subscript-info input:focus,
+.subscript-info button:focus {
+  outline: none;
+}
+
+.subscript-info button {
+  cursor: pointer;
+}
+
+.subscript-info button {
+  background-color: #CC8A56;
+  border-top-right-radius: 200px;
+  border-bottom-right-radius: 200px;
+
+}
+
+.contact p {
+  margin-bottom: 5px;
+}
+
+.contact a {
+  display: block;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+
+.contact i {
+  margin-right: 5px;
+}
+
+.copyright {
+  background-color: #CC8A56;
+  font-size: 12px;
+  text-align: center;
+  padding: 6px;
+}

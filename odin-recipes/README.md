@@ -6,8 +6,6 @@ It's a simple recipe page. Click the recipe link to show more information about 
 
 ### Project preview
 
-👉[Project page](https://noelle-kh.github.io/odin-recipes/)👈
-
 <img src="resource/recipe-preview.png" width=50%>
 <img src="resource/recipe-preview2.png" width=50%>
 
@@ -15,7 +13,8 @@ It's a simple recipe page. Click the recipe link to show more information about 
 
 ### Tech
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Thought
 
